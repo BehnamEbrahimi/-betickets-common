@@ -1,4 +1,4 @@
-//Some dummy comment
+// Some dummy comment
 export * from "./errors/bad-request-error";
 export * from "./errors/custom-error";
 export * from "./errors/database-connection-error";
