@@ -6,6 +6,7 @@ export interface OrderCreatedEvent {
   data: {
     // actually status is not needed by other service in this event, we future-proof ourselves by sharing maximum data.
     id: string;
+    version: number;
     status: OrderStatus;
     userId: string;
     expiresAt: string;

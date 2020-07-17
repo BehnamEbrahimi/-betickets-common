@@ -5,6 +5,7 @@ export interface OrderCancelledEvent {
   data: {
     // bare minimum data that other services need.
     id: string;
+    version: number;
     ticket: {
       id: string;
     };
